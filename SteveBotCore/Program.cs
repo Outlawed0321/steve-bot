@@ -1,12 +1,15 @@
 ﻿using System;
 
+
 namespace SteveBotCore
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
+            Unity.RegisterTypes();
             Console.WriteLine("Hello, Discord!");
         }
     }
+
 }
