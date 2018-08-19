@@ -2,7 +2,7 @@
 
 namespace SteveBotCore.Discord.Entities
 {
-    class SteveBotConfig
+    public class SteveBotConfig
     {
         public string Token { get; set; }
         public DiscordSocketConfig SocketConfig { get; set; }
